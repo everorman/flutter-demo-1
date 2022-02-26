@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
               DescriptionPlace()
             ],
           ),
-          Header(),
+          Header("Popular"),
         ],
       ),
     );

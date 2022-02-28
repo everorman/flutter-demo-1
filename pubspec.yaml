@@ -86,10 +86,16 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
     - assets/images/people.png
+    - assets/images/foto-1.jpg
+    - assets/images/foto-2.jpg
+    - assets/images/foto-3.jpg
+    - assets/images/foto-4.jpg
+    - assets/images/foto-5.jpg
   fonts:
     - family: Lato
       fonts:

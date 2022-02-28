@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'description_place.dart';
-import 'header.dart';
+import 'headerAppBar.dart';
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
               DescriptionPlace()
             ],
           ),
-          Header("Popular"),
+          HeaderAppBar(),
         ],
       ),
     );

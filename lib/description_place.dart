@@ -6,6 +6,8 @@ import 'package:platzi_trips_app/review.dart';
 import 'listReview.dart';
 import 'stars.dart';
 import 'description.dart';
+import 'buttonRound.dart';
+
 
 class DescriptionPlace extends StatelessWidget{
   @override
@@ -37,10 +39,12 @@ class DescriptionPlace extends StatelessWidget{
 
     );
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         title_stars,
         Description(textExample),
-        new ListReview()
+        ButtonRound('Navigate'),
+        ListReview()
       ],
     );
   }

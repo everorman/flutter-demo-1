@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'floatingActionFavButton.dart';
 
 class ItemImage extends StatelessWidget{
   String pathImage = "assets/images/foto-1.jpg";
@@ -32,7 +33,13 @@ class ItemImage extends StatelessWidget{
       ),
 
     );
-    return card;
+    return Stack(
+      alignment: Alignment(0.9,1.1),
+      children: [
+        card,
+        FloatingActionFavButton()
+      ],
+    );
   }
 
 }

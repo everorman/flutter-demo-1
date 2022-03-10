@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 
 class Header extends StatelessWidget{
   String title="Popular";
-  Header(this.title);
+  double headerHeight;
+  Header(this.title, [this.headerHeight = 250]);
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
 
     return Container(
-      height: 250,
+      height: headerHeight,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [

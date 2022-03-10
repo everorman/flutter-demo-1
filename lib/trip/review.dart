@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/userDetails.dart';
-import 'circleImage.dart';
+import 'package:platzi_trips_app/trip/userDetails.dart';
+import '../utilidades/circleImage.dart';
 
 class Review extends StatelessWidget{
   String details = "Demo 1 Demo 2";

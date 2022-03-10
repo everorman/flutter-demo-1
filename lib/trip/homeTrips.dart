@@ -14,7 +14,7 @@ class HomeTrips extends StatelessWidget{
             DescriptionPlace()
           ],
         ),
-        HeaderAppBar(),
+        HeaderAppBar('Bienvenido'),
       ],
     );
   }

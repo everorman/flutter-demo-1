@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'item-image.dart';
+import '../utilidades/item-image.dart';
 
 class ImageList extends StatelessWidget{
   @override

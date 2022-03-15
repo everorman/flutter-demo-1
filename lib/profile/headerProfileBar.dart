@@ -11,7 +11,7 @@ class HeaderProfileBar extends StatelessWidget{
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Header(title, 350),
+        Header(title, 300),
         Column(
           children: [
             ProfileDetail(),

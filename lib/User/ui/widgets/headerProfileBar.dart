@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/profile/profileDetail.dart';
-import '../utilidades/header.dart';
+import '../../../widgets/header.dart';
 import 'profileActions.dart';
+import 'profileDetail.dart';
 
 class HeaderProfileBar extends StatelessWidget{
   String title;

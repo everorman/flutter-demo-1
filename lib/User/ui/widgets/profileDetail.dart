@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../utilidades/circleImage.dart';
+import '../../../widgets/circleImage.dart';
 
 class ProfileDetail extends StatelessWidget{
   String name;

@@ -2,11 +2,10 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:faker/faker.dart';
-import 'package:platzi_trips_app/trip/review.dart';
-import 'listReview.dart';
-import '../utilidades/stars.dart';
-import 'description.dart';
-import '../utilidades/buttonRound.dart';
+import '../widgets/listReview.dart';
+import '../../../widgets/stars.dart';
+import '../widgets/description.dart';
+import '../../../widgets/buttonRound.dart';
 
 
 class DescriptionPlace extends StatelessWidget{

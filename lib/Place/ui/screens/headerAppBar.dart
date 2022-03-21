@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../utilidades/header.dart';
-import 'imagesList.dart';
+import '../../../widgets/header.dart';
+import '../widgets/imagesList.dart';
 
 class HeaderAppBar extends StatelessWidget{
   String title = "Bienvenido";

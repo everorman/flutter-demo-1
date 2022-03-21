@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/profile/profile.dart';
-import 'package:platzi_trips_app/search/searchTrips.dart';
+import 'package:platzi_trips_app/Place/ui/widgets/searchTrips.dart';
 
-import 'trip/homeTrips.dart';
+import 'Place/ui/screens/homeTrips.dart';
+import 'User/ui/screen/profile.dart';
 
 class AppBody extends StatefulWidget{
   @override

@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../utilidades/floatingActionFavButton.dart';
+import '../../../widgets/floatingActionFavButton.dart';
+
 
 class ProfileItemImage extends StatelessWidget{
   String pathImage;

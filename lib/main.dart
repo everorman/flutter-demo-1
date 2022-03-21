@@ -1,9 +1,6 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:platzi_trips_app/appBody.dart';
-import 'trip/description_place.dart';
-import 'trip/headerAppBar.dart';
 void main(){
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(

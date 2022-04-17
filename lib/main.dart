@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 import 'package:platzi_trips_app/User/bloc/blocUser.dart';
-import 'package:platzi_trips_app/appBody.dart';
-void main(){
+import 'package:platzi_trips_app/User/ui/screen/signin.screen.dart';
+// import 'package:platzi_trips_app/appBody.dart';
+import 'package:firebase_core/firebase_core.dart';
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     statusBarColor: Colors.transparent, // transparent status bar
   ));
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
               primarySwatch: Colors.blue,
             ),
-            home: AppBody()
+            home: SigninScreen()
         ),
         bloc: UserBlock()
     );

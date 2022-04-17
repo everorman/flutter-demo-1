@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
-import 'package:platzi_trips_app/User/bloc/blocUser.dart';
+import 'package:platzi_trips_app/User/bloc/userBloc.dart';
 import 'package:platzi_trips_app/User/ui/screen/signin.screen.dart';
 // import 'package:platzi_trips_app/appBody.dart';
 import 'package:firebase_core/firebase_core.dart';

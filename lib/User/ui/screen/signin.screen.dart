@@ -17,18 +17,18 @@ class SigninScreen extends StatefulWidget{
 }
 
 class _SigninScreen extends State<StatefulWidget>{
-  late UserBlock userBlock;
+  late UserBloc userBloc;
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    this.userBlock = BlocProvider.of(context);
+    this.userBloc = BlocProvider.of(context);
     return _handCurrentSession();
   }
 
   Widget _handCurrentSession(){
     return StreamBuilder(
-      stream: userBlock.authStatus,
+      stream: userBloc.authStatus,
       builder: (BuildContext context, AsyncSnapshot snaphot) {
         if(!snaphot.hasData || snaphot.hasError){
           return signinGoogleUI();
@@ -60,7 +60,7 @@ class _SigninScreen extends State<StatefulWidget>{
                 ButtonGeneric(
                     text: "Login with gmail",
                     onPressed: (){
-                      userBlock.signIn()
+                      userBloc.signIn()
                           .then((UserCredential value) => {
                         print("El usuario fue creado ${value.user?.displayName}")
                       });

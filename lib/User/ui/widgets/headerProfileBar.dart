@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:platzi_trips_app/User/ui/widgets/buttonsBar.dart';
 import '../../../widgets/header.dart';
 import 'profileActions.dart';
 import 'profileDetail.dart';
@@ -15,7 +16,7 @@ class HeaderProfileBar extends StatelessWidget{
         Column(
           children: [
             ProfileDetail(),
-            ProfileActions()
+            ButtonsBar()
           ],
         )
 

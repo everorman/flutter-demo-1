@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
             ),
             home: SigninScreen()
         ),
-        bloc: UserBlock()
+        bloc: UserBloc()
     );
   }
 }

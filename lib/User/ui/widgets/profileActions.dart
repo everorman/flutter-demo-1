@@ -50,7 +50,7 @@ class ProfileActions extends StatelessWidget{
       )
   );
 
-  final mailButton = Container(
+  final signOutButton = Container(
       width: 30.0,
       height: 30.0,
       decoration: const ShapeDecoration(
@@ -59,7 +59,7 @@ class ProfileActions extends StatelessWidget{
       ),
       child: const Center(
         child: Icon(
-            Icons.mail_outline,
+            Icons.exit_to_app,
             size: 20.0,
             color: Color(0xFF4268D3)
         ),
@@ -96,7 +96,7 @@ class ProfileActions extends StatelessWidget{
             Expanded(child: bookmark),
             Expanded(child: images),
             Expanded(child: agregar),
-            Expanded(child: mailButton),
+            Expanded(child: signOutButton),
             Expanded(child: profileButton)
           ],
         )
